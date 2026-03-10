@@ -404,8 +404,7 @@ document.write(`
   <style type=text/css>
   .mouse-scroll-on-mobile{display:none;}
   @media screen and (max-width: 576px){
-    .mouse-scroll-on-mobile{width:95px;height:30px;margin:0 0 0 -30px;position:fixed;right:calc(50% - 52px);bottom:80px;-webkit-animation:arrow .5s 1s infinite ease-in-out alternate;z-index:999;display:block!important;visibility:hidden}
-    /* ... (CSS animation mũi tên) */
+    .mouse-scroll-on-mobile{display:none!important}
   }
   </style>
   <div class="mouse-scroll-on-mobile">
