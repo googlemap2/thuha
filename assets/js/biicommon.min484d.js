@@ -402,16 +402,8 @@ var scrollDownText =
 
 document.write(`
   <style type=text/css>
-  .mouse-scroll-on-mobile{display:none;}
-  @media screen and (max-width: 576px){
-    .mouse-scroll-on-mobile{display:none!important}
-  }
+  .mouse-scroll-on-mobile{display:none!important}
   </style>
-  <div class="mouse-scroll-on-mobile">
-    <div class="mouse-scroll-on-mobile-text">${scrollDownText}</div>
-    <div class="mouse-scroll-on-mobile-left"></div>
-    <div class="mouse-scroll-on-mobile-right"></div>
-  </div>
 `);
 
 // ============================================================
