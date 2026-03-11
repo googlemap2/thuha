@@ -387,18 +387,12 @@ window.onload = (event) => {
   document.body.style.overflow = "hidden";
 };
 
-// --- Hiển thị nút scroll-to-top khi cuộn xuống ---
 window.addEventListener("scroll", (event) => {
   if (window.scrollY > 50) {
     document.querySelector(".mouse-scroll-on-mobile").style.visibility = "visible";
   }
 });
 
-// --- Nút "Kéo xuống" trên mobile ---
-var scrollDownText =
-  typeof biicore.scroll_down_text != "undefined" && biicore.scroll_down_text !== ""
-    ? biicore.scroll_down_text
-    : "Kéo xuống";
 
 document.write(`
   <style type=text/css>
